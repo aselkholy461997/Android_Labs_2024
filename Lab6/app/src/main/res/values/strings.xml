@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab 6</string>
+    <string name="movie_name">MOVIE NAME</string>
+    <string name="add_movie">ADD MOVIE</string>
+    <string name="save_movie">SAVE MOVIE</string>
+    <string name="show_movies">SHOW MOVIES</string>
+    <string name="movie_name_item">Movie Name</string>
+    <string name="update_movie">Update</string>
+    <string name="delete_movie">Delete</string>
+</resources>

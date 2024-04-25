@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="music_tab">Music</string>
+    <string name="camera_tab">Camera</string>
+    <string name="voice_tab">Voice</string>
+    <string name="play_music">Play Music</string>
+    <string name="stop_music">Stop Music</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="speak_button">Speak Now button</string>
+    <string name="tap_mic_and_speak">Tap the mic and speak</string>
+</resources>

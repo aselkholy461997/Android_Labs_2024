@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerViewExample</string>
+    <string name="go_to_grid">Go To Grid</string>
+    <string name="go_to_list">Go To List</string>
+</resources>

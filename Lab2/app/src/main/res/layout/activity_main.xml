@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="135dp"
+        android:layout_height="39dp"
+        android:labelFor="@id/txt_temp"
+        android:text="@string/label"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_temp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679" />
+
+    <EditText
+        android:id="@+id/txt_temp"
+        android:layout_width="342dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="560dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--     Practice 1          -->
+    <!--    <RadioGroup-->
+    <!--        android:id="@+id/radioGroup"-->
+    <!--        android:layout_width="301dp"-->
+    <!--        android:layout_height="104dp"-->
+    <!--        android:layout_marginBottom="60dp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/btn_calculateTemp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.281"-->
+    <!--        app:layout_constraintStart_toStartOf="parent">-->
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/radio_celsius"-->
+    <!--            android:layout_width="222dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="@string/rad_cel"-->
+    <!--            android:textSize="16sp" />-->
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/radio_fahrenheit"-->
+    <!--            android:layout_width="223dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="@string/rad_fahren"-->
+    <!--            android:textSize="16sp" />-->
+    <!--    </RadioGroup>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_calculateTemp"-->
+    <!--        android:layout_width="140dp"-->
+    <!--        android:layout_height="59dp"-->
+    <!--        android:layout_marginBottom="300dp"-->
+    <!--        android:text="@string/cal_btn"-->
+    <!--        android:textSize="16sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--     Practice 2          -->
+    <Spinner
+        android:id="@+id/temp_options"
+        android:layout_width="252dp"
+        android:layout_height="62dp"
+        android:entries="@array/temp_options"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

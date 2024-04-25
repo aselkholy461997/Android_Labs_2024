@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The following is a layout file for a single item in a RecyclerView.
+The layout file contains a TextView with a drawableStartCompat attribute.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <!-- The following is a TextView with a drawableStartCompat attribute.
+    The drawableStartCompat attribute is used to set the drawable to the start of the TextView.
+    The drawablePadding attribute is used to set the padding between the drawable and the text.
+    The gravity attribute is used to set the alignment of the text and the drawable.
+    The paddingVertical attribute is used to set the padding between the top and bottom of the TextView.
+    The layout_marginBottom attribute is used to set the margin between the bottom of the TextView and the next view.
+    The compat is for compatability with older versions of Android.
+    -->
+
+    <EditText
+        android:id="@+id/movie_name_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/movie_name_item" />
+
+    <Button
+        android:id="@+id/update_movie_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_movie" />
+
+    <Button
+        android:id="@+id/delete_movie_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/delete_movie" />
+
+</LinearLayout>

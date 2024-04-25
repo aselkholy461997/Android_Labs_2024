@@ -1,0 +1,14 @@
+<resources>
+<!--     Practice 1          -->
+    <string name="app_name">Lab 2</string>
+    <string name="label">Temperature</string>
+    <string name="rad_cel">Celsius</string>
+    <string name="rad_fahren">Fahrenheit</string>
+    <string name="cal_btn">Calculate</string>
+
+<!--     Practice 2          -->
+    <string-array name="temp_options">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+</resources>

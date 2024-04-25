@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab 1</string>
+    <string name="add_num1_text">1st Value</string>
+    <string name="add_num1">Enter first number</string>
+    <string name="add_num2_text">2nd Value</string>
+    <string name="add_num2">Enter second number</string>
+    <string name="add_btn">Add</string>
+    <string name="sum_hint">Result</string>
+</resources>
