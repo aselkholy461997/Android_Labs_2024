@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Menus</string>
+
+<!-- Options menu   -->
+    <string name="share">Share</string>
+    <string name="gallery">Gallery</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+
+<!-- Options menu: Sub menu   -->
+    <string name="submenu">Submenu</string>
+    <string name="sub_option_1">Sub Option 1</string>
+    <string name="sub_option_2">Sub Option 2</string>
+    <string name="sub_option_3">Sub Option 3</string>
+
+<!--  Context and Popup menus options !-->
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+</resources>
