@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        // Register context menu to textview, 1 context menu per activity
+        // Register context menu to textview
         textView = findViewById(R.id.textview);
         registerForContextMenu(textView);
 
